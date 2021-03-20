@@ -25,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
         }
 
         @media(max-width: 720px) {
-            font-size: 87.05%;
+            font-size: 87.5%;
         }
     }
 
@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body, input, textarea, button {
-        font-family: 'Poopins', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-weight: 400;
     }
 
