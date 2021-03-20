@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {                  
+    "lib": ["dom", "dom.iterable", "esnext"] , // Define as libs
+    "strict": true,   // Modo de lidar com erros.    
+    "allowJs": true,  // Arquivos tanto JS quando TS.
+     "jsx": "react-jsx",   // Vamos escrever html dentro de javascript
+    "noEmit": true,                   
+    "isolatedModules": true,
+    "moduleResolution": "node",   // Adincionar node mudules.
+    "resolveJsonModule": true,     
+    "allowSyntheticDefaultImports": true,       
+    "esModuleInterop": true,                
+    "skipLibCheck": true,                   
+    "forceConsistentCasingInFileNames": true 
+  },
+  "include": ["src"] // Onde está todo o código da aplicação.
+}
