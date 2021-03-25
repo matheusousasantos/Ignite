@@ -16,6 +16,7 @@ export const Container = styled.form`
         border: 1px solid #d7d7d7; 
         font-weight: 400;
         font-size: 1rem;
+        padding: 1rem;
 
         &::placeholder {
             color: var(--text-body);
@@ -64,7 +65,7 @@ const colors = {
 }
 
 export const RadioBox = styled.button<RadioBoxProps>`
-    height: 4rem;
+        height: 4rem;
         border: 1px solid #d7d7d7;
         border-radius: 0.25rem;
         background: ${props => props.isActive 
