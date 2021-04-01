@@ -23,8 +23,8 @@ export function TransactionsTable() {
                             <td>{transaction.title}</td>
                             <td className={transaction.type}>
                                 {new Intl.NumberFormat('pt-BR', {
-                                    style: 'currency', //Formatação em moeda.
-                                    currency: 'BRL' // Moeda em real
+                                    style: 'currency', 
+                                    currency: 'BRL'
                                 }).format(transaction.amount)}</td>
                             <td>{transaction.category}</td>
                             <td>{new Intl.DateTimeFormat('pt-BR')
